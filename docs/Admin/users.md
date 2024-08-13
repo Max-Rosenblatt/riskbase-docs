@@ -1,4 +1,5 @@
 ---
+title: "Users"
 sidebar_position: 6
 ---
 # Users
