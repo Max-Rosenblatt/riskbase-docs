@@ -1,4 +1,5 @@
 ---
+title: "Tablet vs Phone"
 sidebar_position: 2
 ---
 # Tablet vs Phone
