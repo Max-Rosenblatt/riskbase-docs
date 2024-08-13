@@ -1,4 +1,5 @@
 ---
+title: "Manage Assets"
 sidebar_position: 3
 ---
 # Manage Assets
