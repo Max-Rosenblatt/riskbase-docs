@@ -14,7 +14,7 @@ collections:
         name: "get_started"
         file: "docs/GetStarted.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Title", name: "title", widget: "string", default: "title" }
           - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "admin"
