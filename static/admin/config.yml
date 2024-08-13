@@ -7,37 +7,48 @@ media_folder: "static/img" # Media files will be stored in the repo under static
 public_folder: "/img/" # The src attribute for uploaded media will begin with /img/
 
 collections:
-  - name: blog
-    label: "Blog"
-    folder: blog
-    identifier_field: title
-    extension: md
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields:
-      - { name: title, label: Title, widget: string }
-      - { name: body, label: Body, widget: markdown }
-      - { name: slug, label: Slug, widget: string }
-      - label: "Tags"
-        name: "tags"
-        widget: "list"
-      - label: "Authors"
-        name: "authors"
-        widget: "list"
+  - name: "get_started"
+    label: "Get Started"
+    files:
+      - label: "Get Started"
+        name: "get_started"
+        file: "docs/GetStarted.md"
         fields:
-          - { name: name, label: Name, widget: string }
-          - { name: title, label: Title, widget: string }
-          - { name: url, label: URL, widget: string }
-          - { name: imageUrl, label: ImageURL, widget: string }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
 
-  - name: docs
-    label: "Documentation"
-    folder: docs
-    identifier_field: title
-    extension: md
+  - name: "admin"
+    label: "Admin"
+    folder: "docs/Admin"
     create: true
     slug: "{{slug}}"
     fields:
-      - { name: title, label: "Title", widget: "string" }
-      - { name: body, label: "Body", widget: "markdown" }
-      - { name: slug, label: "Slug", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "app"
+    label: "App"
+    folder: "docs/app"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "how-to"
+    label: "How-To"
+    folder: "docs/How-To"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "riskbase"
+    label: "Riskbase"
+    folder: "docs/Riskbase"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
