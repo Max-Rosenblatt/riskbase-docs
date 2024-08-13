@@ -14,7 +14,7 @@ collections:
         name: "get_started"
         file: "docs/GetStarted.md"
         fields:
-          - { label: "title", name: "title", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "admin"
@@ -23,7 +23,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "title", name: "title", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "app"
@@ -32,7 +32,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "title", name: "title", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "how-to"
@@ -41,7 +41,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "title", name: "title", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "riskbase"
@@ -50,5 +50,6 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "title", name: "title", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+
