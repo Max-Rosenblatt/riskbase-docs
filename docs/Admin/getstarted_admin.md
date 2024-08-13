@@ -1,4 +1,5 @@
 ---
+title: "Get Started for Admins"
 sidebar_position: 1
 ---
 # Get Started
