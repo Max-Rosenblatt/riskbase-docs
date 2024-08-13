@@ -1,5 +1,6 @@
 ---
 sidebar_position: 9
+title: "QC and Approval"
 ---
 # QC and Approval
 
