@@ -1,4 +1,5 @@
 ---
+title: "Features & Access"
 sidebar_position: 7
 ---
 # Features & Access
