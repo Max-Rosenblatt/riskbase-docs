@@ -1,4 +1,5 @@
 ---
+title: "Door Inspection"
 sidebar_position: 3
 ---
 # Door Inspection
