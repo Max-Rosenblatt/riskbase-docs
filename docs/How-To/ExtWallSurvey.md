@@ -1,4 +1,5 @@
 ---
+title: "External Wall Survey"
 sidebar_position: 5
 ---
 # External Wall Survey
