@@ -1,4 +1,5 @@
 ---
+title: "Regular Inspections"
 sidebar_position: 8
 ---
 # Regular Inspections
