@@ -1,4 +1,5 @@
 ---
+title: "Assessment Template Setup"
 sidebar_position: 14
 ---
 # Assessment Template Setup
