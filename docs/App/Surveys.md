@@ -1,4 +1,5 @@
 ---
+title: "Surveys"
 sidebar_position: 7
 ---
 # Surveys
