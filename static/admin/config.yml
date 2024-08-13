@@ -28,7 +28,7 @@ collections:
 
   - name: "app"
     label: "App"
-    folder: "docs/app"
+    folder: "docs/App"
     create: true
     slug: "{{slug}}"
     fields:
