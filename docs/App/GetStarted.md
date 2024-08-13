@@ -1,4 +1,5 @@
 ---
+title: "Get Started on the App"
 sidebar_position: 1
 ---
 # Get Started
