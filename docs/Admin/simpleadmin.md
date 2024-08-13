@@ -1,3 +1,7 @@
+---
+title: Simple Admin
+---
+
 ##### What you need and nothing more.
 
 Simple Admin is designed to give task managers access to the properties they are assigned and the tools they need.
