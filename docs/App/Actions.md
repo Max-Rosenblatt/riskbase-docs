@@ -1,4 +1,5 @@
 ---
+title: "Actions"
 sidebar_position: 6
 ---
 # Actions
