@@ -1,3 +1,7 @@
+---
+title: "Profile"
+___
+
 Manage your:
 
 * Profile Photo.
