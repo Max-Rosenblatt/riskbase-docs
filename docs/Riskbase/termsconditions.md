@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+title: "Terms, Conditions and Privacy Policy"
 ---
 # Terms, Conditions and Privacy Policy
 
