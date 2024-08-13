@@ -1,5 +1,5 @@
 ---
-title "Projects"
+title: "Projects"
 sidebar_position: 8
 ---
 # Projects
